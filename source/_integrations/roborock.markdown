@@ -22,4 +22,9 @@ In contrast to [Xiaomi Miio](/integrations/xiaomi_miio/) integration, this integ
 
 Once you log in with your Roborock account, the integration will automatically discover your Roborock devices and get the needed information to communicate locally with them. Please ensure your Home Assistant instance can communicate with the local IP of your device. We recommend setting a static IP for your Roborock Vacuum to help prevent future issues.
 
+# Prerequisites
+- You must login to this integration with Roborock credentials - not Mi Home credentials.
+- Some older Roborock devices are not supported by this integration - as they cannot be added to the Roborock app. If that is the case, you should use the [Xiaomi Miio](/integrations/xiaomi_miio/) integration instead.
+- This integration was primarily tested on the S7 series - some vacuums may be missing fan or mop codes, device-specific modes will be coming in a future release.
+
 {% include integrations/config_flow.md %}
