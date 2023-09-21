@@ -61,6 +61,10 @@ Side brush time left - How much time is left before Roborock recommends you repl
 
 Filter time left - How much time is left before Roborock recommends you replace your vacuum's air filter.
 
+Last clean start - The time that you last started a clean with your vacuum.
+
+Last clean end - the time that you last finished a clean with your vacuum.
+
 Status - The current status of your vacuum. This typically describes the action that is currently being run. For example, 'spot_cleaning' or 'docking'.
 
 Total cleaning time - The lifetime cleaning duration of your vacuum.
