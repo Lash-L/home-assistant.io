@@ -14,7 +14,7 @@ ha_platforms:
 ha_integration_type: integration
 ---
 
-Snoo's are a smart bassinet that help get your baby to sleep and help keep them asleep. 
+The Snoo is a smart bassinet that helps get your baby to sleep and helps keep them asleep.
 
 ## Installing the integration
 This integration follows standard integration installation. No extra steps are required.
