@@ -16,6 +16,7 @@ ha_integration_type: integration
 
 The Snoo is a smart bassinet that helps get your baby to sleep and helps keep them asleep.
 
+
 ## Installing the integration
 This integration follows standard integration installation. No extra steps are required.
 
@@ -23,7 +24,6 @@ This integration follows standard integration installation. No extra steps are r
 
 ## Removing the integration
 
-This integration follows standard integration removal. No extra steps are
-required.
+This integration follows standard integration removal. No extra steps arerequired.
 
 {% include integrations/remove_device_service.md %}
