@@ -227,8 +227,11 @@ target:
   entity_id: vacuum.s7_roborock
 
 ```
+
 ## Troubleshooting
+
 ### I get a invalid or no user agreement error - but nothing shows up in my app
+
 Sometimes this happens! Your app is somehow out of sync with the Roborock servers. To solve this:
 1. Open your Roborock app
 2. Open Profile -> About Us -> User Agreement & Privacy Policy
