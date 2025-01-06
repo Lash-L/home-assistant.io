@@ -232,7 +232,7 @@ target:
 
 ### I get a invalid or no user agreement error - but nothing shows up in my app
 
-Sometimes this happens! Your app is somehow out of sync with the Roborock servers. To solve this:
+Roborock servers require accepting a user agreement before using the API, which may block Home Assistant from during setup. Additionally, the Roborock may ask you to re-enter the user agreement, even if you may have entered it before.  To allow Home Assistant to use the Roborock API you need to take the following steps:
 1. Open your Roborock app
 2. Open Profile -> About Us -> User Agreement & Privacy Policy
 3. Hit revoke authorization
