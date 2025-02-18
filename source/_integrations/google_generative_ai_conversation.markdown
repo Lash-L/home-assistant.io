@@ -85,7 +85,7 @@ The tutorial is using OpenAI, but this could also be done with the Google Genera
 This action isn't tied to any integration entry, so it won't use the model, prompt, or any of the other settings in your options. If you only want to pass text, you should use the `conversation.process` action.
 {% endtip %}
 
-Allows you to ask Gemini Pro or Gemini Pro Vision to generate content from a prompt consisting of text and optionally attachments (images, PDFs, etc).
+Allows you to ask Gemini Pro or Gemini Pro Vision to generate content from a prompt consisting of text and optionally attachments (images, PDFs, etc.).
 This action populates [response data](/docs/scripts/perform-actions#use-templates-to-handle-response-data) with the generated content.
 
 | Data attribute | Optional | Description                                     | Example             |
