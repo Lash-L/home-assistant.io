@@ -10,6 +10,7 @@ ha_codeowners:
   - '@Taraman17'
 ha_domain: homee
 ha_platforms:
+  - button
   - cover
   - sensor
 ha_integration_type: hub
@@ -20,9 +21,9 @@ ha_quality_scale: bronze
 
 There is currently support for the following device types in Home Assistant:
 
+- button
 - cover
 - sensor
-
 
 ## Prerequisites
 
