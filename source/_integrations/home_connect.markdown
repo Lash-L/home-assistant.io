@@ -3,6 +3,7 @@ title: Home Connect
 description: Instructions on how to set up the Home Connect integration within Home Assistant.
 ha_category:
   - Binary sensor
+  - Button
   - Hub
   - Light
   - Number
@@ -19,6 +20,7 @@ ha_codeowners:
 ha_config_flow: true
 ha_platforms:
   - binary_sensor
+  - button
   - diagnostics
   - light
   - number
@@ -47,6 +49,7 @@ The integration will add one Home Assistant device for each connected home appli
 - Time for alarm clock for cooktops and ovens.
 - Multiple sensors that report the different states and events reported by the appliance.
 - Binary sensors that show binary states of the appliance.
+- Buttons to pause, resume, and stop the running program, as well as to open the door either completely or partially.
 
 {% note %}
 Some appliances don't report data while they are turned off so corresponding entities will not appear in the Home Connect integration after loading until the appliances are turned on.
