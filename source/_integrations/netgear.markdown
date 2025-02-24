@@ -2,7 +2,7 @@
 title: NETGEAR
 description: Instructions on how to integrate NETGEAR routers into Home Assistant.
 ha_category:
-  - Presence Detection
+  - Presence detection
   - Update
 ha_iot_class: Local Polling
 ha_release: pre 0.7
@@ -29,12 +29,14 @@ Attached devices are only tracked on NETGEAR devices set to the router mode, oth
 {% include integrations/config_flow.md %}
 
 {% include integrations/option_flow.md %}
+
 {% configuration_basic %}
 Consider_home:
   description: "The consider home time is the number of seconds to wait till marking someone as not home after not being seen. This parameter is most useful for households with Apple iOS devices that go into sleep mode while still at home to conserve battery life. iPhones will occasionally drop off the network and then re-appear. This option helps prevent false alarms in presence detection."
 {% endconfiguration_basic %}
 
 ## Router entities
+
 The NETGEAR router will have the following entities.
 
 Note that not all routers support all features, if a router does not support a feature, the corresponding entity will have the unavailable status even when the entity is disabled.
@@ -109,3 +111,7 @@ Displays the current link rate of the device indicating the maximum possible dat
 ### Link type
 
 Displays the current link type: wired, 2.4GHz or 5GHz.
+
+## Troubleshooting
+
+- If you get a "Connection or login error" when trying to setup the NETGEAR integration, please try using the IP address of the router (often "192.168.1.1") as host instead of the default "routerlogin.net".
