@@ -1,6 +1,6 @@
 ---
 title: Snoo
-description: Instructions on how to integrate Snoos into Home Assistant
+description: Instructions on how to integrate Snoo into Home Assistant
 ha_category:
   - Sensor
 ha_iot_class: Cloud Push
